@@ -1,0 +1,15 @@
+# Ignore Node.js dependencies
+node_modules/
+.env
+package-lock.json
+yarn.lock
+
+# Ignore Python virtual environment and cache
+__pycache__/
+venv/
+
+# Ignore system files
+.DS_Store
+.vscode/
+.idea/
+*.log

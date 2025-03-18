@@ -1,0 +1,52 @@
+{
+    "Tomato Leaf Blight": {
+        "Symptoms": "Dark brown lesions on leaves, yellowing, wilting.",
+        "Causes": "Fungal infection due to high humidity.",
+        "Cure": "Use copper-based fungicides, remove infected leaves, improve air circulation."
+    },
+    "Powdery Mildew": {
+        "Symptoms": "White powdery spots on leaves and stems.",
+        "Causes": "Fungal spores spreading in dry conditions.",
+        "Cure": "Apply sulfur-based fungicides, improve air circulation, avoid excessive nitrogen fertilizers."
+    },
+    "Bacterial Wilt": {
+        "Symptoms": "Sudden wilting of leaves, yellowing, brown streaks in stems.",
+        "Causes": "Bacterial infection spread through soil and water.",
+        "Cure": "Use disease-resistant varieties, rotate crops, ensure proper soil drainage."
+    },
+    "Early Blight": {
+        "Symptoms": "Small brown spots on older leaves, spreading in circular patterns.",
+        "Causes": "Fungal spores activated by wet conditions.",
+        "Cure": "Apply fungicides containing chlorothalonil or mancozeb, remove infected plant debris."
+    },
+    "Late Blight": {
+        "Symptoms": "Dark, water-soaked lesions on leaves and stems, white fungal growth on the underside.",
+        "Causes": "Fungal infection worsened by wet and humid conditions.",
+        "Cure": "Use copper-based fungicides, remove infected plants, avoid overhead watering."
+    },
+    "Rust Disease": {
+        "Symptoms": "Orange or yellow pustules on leaves, leading to defoliation.",
+        "Causes": "Fungal spores spread by wind and rain.",
+        "Cure": "Apply fungicides like myclobutanil, remove infected leaves, improve ventilation."
+    },
+    "Downy Mildew": {
+        "Symptoms": "Yellow patches on leaves, purple-gray mold on undersides.",
+        "Causes": "Fungal-like pathogen thriving in moist conditions.",
+        "Cure": "Use copper fungicides, improve air circulation, avoid overhead watering."
+    },
+    "Leaf Spot Disease": {
+        "Symptoms": "Circular, brown or black spots on leaves.",
+        "Causes": "Fungal or bacterial infections spread through water splashes.",
+        "Cure": "Apply neem oil or fungicides, remove affected leaves, ensure proper spacing of plants."
+    },
+    "Rice Blast Disease": {
+        "Symptoms": "Grayish lesions on leaves, leading to plant collapse.",
+        "Causes": "Fungal spores that thrive in high humidity and warm temperatures.",
+        "Cure": "Use resistant rice varieties, avoid excessive nitrogen fertilizers, apply fungicides if needed."
+    },
+    "Wheat Rust": {
+        "Symptoms": "Reddish-brown or black pustules on wheat leaves and stems.",
+        "Causes": "Fungal spores spread by wind and rain.",
+        "Cure": "Apply rust-resistant wheat varieties, use fungicides, rotate crops."
+    }
+}
