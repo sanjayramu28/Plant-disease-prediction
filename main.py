@@ -9,7 +9,7 @@ import io
 app = FastAPI()
 
 # Load the trained model
-MODEL_PATH = r"C:\Users\sanja\OneDrive\Desktop\Final Year Projecct\Plant_Disease_Prediction\trained_plant_disease_model.keras"
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "trained_plant_disease_model.keras")
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Define class labels
