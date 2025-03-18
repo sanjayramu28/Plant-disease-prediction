@@ -4,6 +4,8 @@ node_modules/
 package-lock.json
 yarn.lock
 
+Dataset/
+
 # Ignore Python virtual environment and cache
 __pycache__/
 venv/
