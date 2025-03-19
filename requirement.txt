@@ -10,3 +10,4 @@ uvicorn
 tensorflow
 pillow
 gunicorn
+tensorflow-cpu
