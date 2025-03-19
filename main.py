@@ -6,9 +6,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from tensorflow.keras.preprocessing import image
 from PIL import Image
 import io
+import os
+
 
 app = FastAPI()
 
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 # Load the trained model
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "trained_plant_disease_model.keras")
 model = tf.keras.models.load_model(MODEL_PATH)
