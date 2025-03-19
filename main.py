@@ -13,7 +13,8 @@ app = FastAPI()
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 # Load the trained model
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "trained_plant_disease_model.keras")
+#MODEL_PATH = os.path.join(os.path.dirname(__file__), "trained_plant_disease_model.keras")
+MODEL_PATH="trained_plant_disease_model.keras"
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Define class labels
