@@ -20,7 +20,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 #BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 #MODEL_PATH = os.path.join(BASE_DIR, "trained_plant_disease_model.keras")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "trained_plant_disease_model.keras")
+MODEL_PATH = os.path.join(BASE_DIR, "best_model.h5")
 
 print(f"Checking if model exists: {os.path.exists(MODEL_PATH)}")
 print(f"Loading model from: {MODEL_PATH}")
