@@ -17,8 +17,19 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 #MODEL_PATH="trained_plant_disease_model.keras"
 #model = tf.keras.models.load_model(MODEL_PATH)
 
+#BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+#MODEL_PATH = os.path.join(BASE_DIR, "trained_plant_disease_model.keras")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "trained_plant_disease_model.keras")
+
+print(f"Checking if model exists: {os.path.exists(MODEL_PATH)}")
+print(f"Loading model from: {MODEL_PATH}")
+
+if not os.path.exists(MODEL_PATH):
+    raise FileNotFoundError(f"Model file not found at {MODEL_PATH}")
+
+model = tf.keras.models.load_model(MODEL_PATH)
+
 
 print(f"Loading model from: {MODEL_PATH}")  # Debugging
 
@@ -77,5 +88,6 @@ app.add_middleware(
 
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", 8000))  # Use Render's port or default to 8000
+    port = int(os.environ.get("PORT", 10000))  # Default to 10000 if PORT is not set
     uvicorn.run(app, host="0.0.0.0", port=port)
+
