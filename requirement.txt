@@ -11,3 +11,4 @@ tensorflow
 pillow
 gunicorn
 tensorflow-cpu
+python-multipart
